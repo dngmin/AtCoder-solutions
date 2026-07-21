@@ -1,0 +1,5 @@
+S = input()
+size = len({S[0],S[1],S[2]})
+if size == 3: print(6)
+elif size == 2: print(3)
+else: print(1)
