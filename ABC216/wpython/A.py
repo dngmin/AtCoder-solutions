@@ -1,0 +1,5 @@
+XY = input()
+Y = int(XY[-1])
+print(XY[:-2], end="")
+if Y >= 7: print("+")
+elif Y <= 2: print("-")
