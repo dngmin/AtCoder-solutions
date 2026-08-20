@@ -1,0 +1,7 @@
+N = int(input())
+A_list = list(map(int,input().split()))
+B_list = list(map(int,input().split()))
+A_max = max(A_list)
+B_min = min(B_list)
+if A_max > B_min: print(0)
+else: print(B_min - A_max + 1)
