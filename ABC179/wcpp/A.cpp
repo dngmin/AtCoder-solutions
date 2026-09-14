@@ -1,0 +1,9 @@
+#include <iostream>
+#include <string>
+
+int main()
+{
+    std::string S; std::cin >> S;
+    std::cout << S << (S[S.size()-1] == 's'? "es" : "s");
+    return 0;
+}
