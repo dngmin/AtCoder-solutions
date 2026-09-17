@@ -1,0 +1,5 @@
+S = input()
+if S == "SSS": print(0)
+elif S == "RRR": print(3)
+elif "RR" in S: print(2)
+else: print(1)
