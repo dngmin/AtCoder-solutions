@@ -1,0 +1,1 @@
+print("No" if input().find("7") == -1 else "Yes")
