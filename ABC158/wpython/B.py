@@ -1,0 +1,6 @@
+N, A, B = map(int,input().split())
+quotient = A * (N//(A+B))
+remainder = N % (A+B)
+if remainder == 0: print(quotient)
+elif remainder <= A: print(quotient + remainder)
+else: print(quotient + A)
