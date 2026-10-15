@@ -1,0 +1,5 @@
+N, K, M = map(int,input().split())
+needed = M * N - sum(list(map(int,input().split())))
+if needed > K: print(-1)
+elif needed <= 0: print(0)
+else: print(needed)
