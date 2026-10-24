@@ -1,0 +1,1 @@
+print(2 if sum(map(int,input().split())) >= 10 else 1)
