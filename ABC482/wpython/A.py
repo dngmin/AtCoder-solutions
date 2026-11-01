@@ -1,0 +1,1 @@
+print("even" if input().count('o') % 2 == 0 else "odd")
