@@ -1,0 +1,9 @@
+#include <iostream>
+
+int main()
+{
+    int A, B; std::cin >> A >> B;
+    if ((A+B)%2 == 0) std::cout << (A+B)/2;
+    else std::cout << "IMPOSSIBLE";
+    return 0;
+}
